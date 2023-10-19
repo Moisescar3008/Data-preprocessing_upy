@@ -1,2 +1,2 @@
 SELECT * FROM INE_SECCION_2020
-ORDER BY ID;
+--Aca no hay que modificar algo debido a que no hay columnas con valores categoricos.
