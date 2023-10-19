@@ -1,0 +1,13 @@
+SELECT DISTINCT [NOM_ENT ] FROM INE_ENTIDAD_2020
+
+
+UPDATE distrito
+SET COMPLEJIDA ='Yucatán'
+WHERE COMPLEJIDA LIKE 'Yucat%';
+
+SELECT * FROM INE_ENTIDAD_2020
+WHERE [NOM_ENT ] = 'Yucatán';
+
+SELECT DISTINCT [NOM_ENT ] FROM INE_ENTIDAD_2020
+WHERE [NOM_ENT] = 'Yucatán' OR [NOM_ENT ] = 'Ciudad de México' OR [NOM_ENT ] = 'Querétaro' OR [NOM_ENT ] = 'San Luis Potosí'
+OR [NOM_ENT ] = 'México';
